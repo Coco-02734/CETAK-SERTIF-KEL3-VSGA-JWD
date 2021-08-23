@@ -7,7 +7,7 @@ body {
 .v4_15 {
   width: 820px;
   height: 512px;
-  background: url("../images/v4_15.png");
+  background: url('../images/v4_15.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -20,7 +20,7 @@ body {
 .v4_14 {
   width: 820px;
   height: 512px;
-  background: url("../images/v4_14.png");
+  background: url('../images/v4_14.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -32,7 +32,7 @@ body {
 }
 .v1_56 {
   width: 432px;
-  color: rgba(38,39,86,1);
+  color: rgba(38, 39, 86, 1);
   position: absolute;
   top: 85px;
   left: 183px;
@@ -44,7 +44,7 @@ body {
 }
 .v1_57 {
   width: 111px;
-  color: rgba(238,114,42,1);
+  color: rgba(238, 114, 42, 1);
   position: absolute;
   top: 130px;
   left: 342px;
@@ -56,7 +56,7 @@ body {
 }
 .v4_2 {
   width: 221px;
-  color: rgba(58,58,58,1);
+  color: rgba(58, 58, 58, 1);
   position: absolute;
   top: 152px;
   left: 284px;
@@ -68,7 +68,7 @@ body {
 }
 .v1_58 {
   width: 116px;
-  color: rgba(56,63,76,1);
+  color: rgba(56, 63, 76, 1);
   position: absolute;
   top: 184px;
   left: 336px;
@@ -80,7 +80,7 @@ body {
 }
 .v1_60 {
   width: 422px;
-  color: rgba(238,114,42,1);
+  color: rgba(238, 114, 42, 1);
   position: absolute;
   top: 218px;
   left: 203px;
@@ -92,16 +92,16 @@ body {
 }
 .v1_61 {
   width: 503px;
-  background: url("../images/v1_61.png");
+  background: url('../images/v1_61.png');
   opacity: 1;
   position: absolute;
   top: 271px;
   left: 157px;
-  border: 0.5px solid rgba(38,39,86,1);
+  border: 0.5px solid rgba(38, 39, 86, 1);
 }
 .v1_62 {
   width: 612px;
-  color: rgba(56,63,76,1);
+  color: rgba(56, 63, 76, 1);
   position: absolute;
   top: 286px;
   left: 114px;
@@ -111,7 +111,7 @@ body {
 }
 .v1_65 {
   width: 100px;
-  color: rgba(38,39,86,1);
+  color: rgba(38, 39, 86, 1);
   position: absolute;
   top: 432px;
   left: 370px;
@@ -123,7 +123,7 @@ body {
 }
 .v2_92 {
   width: 252px;
-  color: rgba(38,39,86,1);
+  color: rgba(38, 39, 86, 1);
   position: absolute;
   top: 415px;
   left: 311px;
@@ -134,15 +134,15 @@ body {
   text-align: left;
 }
 .v7_18 {
-  width: 150px;
-  height: 105px;
-  background: url("../images/v7_18.png");
+  width: 170px;
+  height: 115px;
+  background: url('../images/logo.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 96px;
+  top: 106px;
   left: 33px;
   overflow: hidden;
 }

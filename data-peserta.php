@@ -66,7 +66,7 @@
             <td><?php echo  $data['asal_kota']; ?></td>
             <td><?php echo  $data['sebagai']; ?></td>
             <td><?php echo  $data['tema']; ?></td>
-            <td><a href="cetakpdf.php?id=<?php echo  $data['id_peserta']; ?>" class="btn btn-warning">Cetak Sertifikat</button></td>
+            <td><a href="proses/cetak-pdf.php?id=<?php echo  $data['id_peserta']; ?>" class="btn btn-warning">Cetak Sertifikat</a></td>
           </tr>
         <?php
           $i++;

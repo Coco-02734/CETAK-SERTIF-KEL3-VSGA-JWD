@@ -80,4 +80,7 @@
   'roboto' => array(
     'normal' => $fontDir . '\fb1c39737fd1d39aafe418d6240e4770',
   ),
+  'inter' => array(
+    'normal' => $fontDir . '\fa0c8c96aeb056d7572b49e421a4fbb7',
+  ),
 ) ?>

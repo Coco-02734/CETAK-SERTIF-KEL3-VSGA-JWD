@@ -35,17 +35,29 @@
 		<form class="mt-3 ml-4" action="proses/create.php" method="POST">
 			<div class="form-group">
 				<label for="exampleInputEmail1">Nama Lengkap</label>
-				<input type="text" class="form-control" id="exampleInputEmail1" name="nama" aria-describedby="emailHelp" style="width: 30%">
+				<input type="text" class="form-control" id="exampleInputEmail1" name="nama" aria-describedby="emailHelp" style="width: 50%" required>
 			</div>
 			<div class="form-group">
 				<label for="exampleInputEmail1">Asal Kota</label>
-				<input type="text" class="form-control" id="exampleInputEmail1" name="kota" aria-describedby="emailHelp" style="width: 30%">
+				<input type="text" class="form-control" id="exampleInputEmail1" name="kota" aria-describedby="emailHelp" style="width: 50%" required>
 			</div>
 			<div class="form-group">
 				<label for="exampleInputEmail1">Nomor Telepon</label>
-				<input type="text" class="form-control" id="exampleInputEmail1" name="no_telp" aria-describedby="emailHelp" style="width: 30%">
+				<input type="text" class="form-control" id="exampleInputEmail1" name="no_telp" aria-describedby="emailHelp" style="width: 50%" required>
 			</div>
-			<button type="submit" class="btn btn-success mt-2" style="width: 30%; border-radius: 20px;">Submit</button>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Sebagai</label>
+				<input type="text" class="form-control" id="exampleInputEmail1" name="sebagai" aria-describedby="emailHelp" style="width: 50%" required>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Tema</label>
+				<input type="text" class="form-control" id="exampleInputEmail1" name="tema" aria-describedby="emailHelp" style="width: 50%" required>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Tanggal Acara</label>
+				<input type="text" class="form-control" id="exampleInputEmail1" name="tgl_acara" aria-describedby="emailHelp" style="width: 50%" required>
+			</div>
+			<button type="submit" class="btn btn-success mt-2" style="width: 50%; border-radius: 20px;">Submit</button>
 		</form>
 
 	</body>
