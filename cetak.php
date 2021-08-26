@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Tambah Sertifikat</title>
 
@@ -9,6 +10,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
 		<a class="navbar-brand">Hai Sertifikasi</a>
@@ -27,38 +29,40 @@
 				<li class="nav-item active">
 					<a class="nav-link" href="data-peserta.php">Data Peserta <span class="sr-only">(current)</span></a>
 				</li>
-			</div>
-		</nav>
+		</div>
+	</nav>
 
-		<h3 class="font-weight-bold mt-3 ml-4" >Halaman Cetak Sertifikat</h3>
+	<h3 class="font-weight-bold mt-3 ml-4 text-center">Halaman Cetak Sertifikat</h3>
 
-		<form class="mt-3 ml-4" action="proses/create.php" method="POST">
-			<div class="form-group">
-				<label for="exampleInputEmail1">Nama Lengkap</label>
-				<input type="text" class="form-control" id="exampleInputEmail1" name="nama" aria-describedby="emailHelp" style="width: 50%" required>
-			</div>
-			<div class="form-group">
-				<label for="exampleInputEmail1">Asal Kota</label>
-				<input type="text" class="form-control" id="exampleInputEmail1" name="kota" aria-describedby="emailHelp" style="width: 50%" required>
-			</div>
-			<div class="form-group">
-				<label for="exampleInputEmail1">Nomor Telepon</label>
-				<input type="text" class="form-control" id="exampleInputEmail1" name="no_telp" aria-describedby="emailHelp" style="width: 50%" required>
-			</div>
-			<div class="form-group">
-				<label for="exampleInputEmail1">Sebagai</label>
-				<input type="text" class="form-control" id="exampleInputEmail1" name="sebagai" aria-describedby="emailHelp" style="width: 50%" required>
-			</div>
-			<div class="form-group">
-				<label for="exampleInputEmail1">Tema</label>
-				<input type="text" class="form-control" id="exampleInputEmail1" name="tema" aria-describedby="emailHelp" style="width: 50%" required>
-			</div>
-			<div class="form-group">
-				<label for="exampleInputEmail1">Tanggal Acara</label>
-				<input type="text" class="form-control" id="exampleInputEmail1" name="tgl_acara" aria-describedby="emailHelp" style="width: 50%" required>
-			</div>
-			<button type="submit" class="btn btn-success mt-2" style="width: 50%; border-radius: 20px;">Submit</button>
-		</form>
+	<form class="mt-3 ml-4 mb-5" action="proses/create.php" method="POST">
+		<div class="form-group">
+			<label for="nama">Nama Lengkap</label>
+			<input type="text" class="form-control" id="nama" name="nama" placeholder="Contoh : Bambang" style="width: 50%" minlength="1" maxlength="30" required>
+			<span class="text-danger" style="font-size: 13px;">*Maksimal 30 Huruf</span>
+		</div>
+		<div class="form-group">
+			<label for="alaskota">Asal Kota</label>
+			<input type="text" class="form-control" id="alaskota" name="kota" placeholder="Contoh : Semarang" style="width: 50%" required>
+		</div>
+		<div class="form-group">
+			<label for="notlp">Nomor Telepon</label>
+			<input type="text" class="form-control" id="notlp" name="no_telp" placeholder="Contoh : 081234556" style="width: 50%" required>
+		</div>
+		<div class="form-group">
+			<label for="sebagai">Sebagai</label>
+			<input type="text" class="form-control" id="sebagai" name="sebagai" placeholder="Contoh : Peserta" style="width: 50%" required>
+		</div>
+		<div class="form-group">
+			<label for="tema">Tema</label>
+			<input type="text" class="form-control" id="tema" name="tema" placeholder="Contoh : Cara Mendapatkan Beasiswa" style="width: 50%" required>
+		</div>
+		<div class="form-group">
+			<label for="tgl">Tanggal Acara</label>
+			<input type="text" class="form-control" id="tgl" name="tgl_acara" placeholder="Contoh : 12 Juli 2021" style="width: 50%" required>
+		</div>
+		<button type="submit" class="btn btn-success mt-2" style="width: 50%; border-radius: 5px;">Kirim Data</button>
+	</form>
 
-	</body>
-	</html>
+</body>
+
+</html>
