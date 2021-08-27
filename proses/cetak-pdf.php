@@ -37,7 +37,13 @@ TEAM 3</span>
 <div class="v1_61"></div>
 <span class="v1_62">Atas peran serta sebagai ' . $sebagai . ' dalam kegiatan webinar dengan tema "' . $tema . '" yang diselenggarakan oleh Gabungan dari peserta VSGA DTS JWD 2021, Diadakan pada tanggal ' . $tgl_acara . '  
 </span>
-<span class="v1_65">Ketua Panitia</span><span class="v2_92">Fernandes Yusril Al Depi Widi
+
+<span class="v1_65">Ketua Panitia
+</span><span class="v2_92">
+<img src="../assets/images/ttd.png" class="img-fluid" style="margin-top:-30px">
+<center style="margin-top:-30px">
+Fernandes Yusril Al Depi Widi
+</center>
 </span><div class="v7_18">
 </div></div>
 </center>
