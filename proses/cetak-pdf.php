@@ -40,7 +40,9 @@ TEAM 3</span>
 
 <span class="v1_65">Ketua Panitia
 </span><span class="v2_92">
-<img src="../assets/images/ttd.png" class="img-fluid" style="margin-top:-30px">
+<center>
+<img src="../assets/images/ttd.png" class="img-fluid" style="margin-top:-50px">
+</center>
 <center style="margin-top:-30px">
 Fernandes Yusril Al Depi Widi
 </center>
