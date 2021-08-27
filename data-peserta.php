@@ -37,7 +37,7 @@
 
     <center>
       <h3 class="font-weight-bold mt-3 ml-4">Halaman Data Peserta</h3>
-    </center />
+    </center>
     <table class="table table-bordered">
       <thead>
         <tr>

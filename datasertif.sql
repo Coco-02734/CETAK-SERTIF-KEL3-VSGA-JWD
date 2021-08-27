@@ -43,7 +43,7 @@ CREATE TABLE `data` (
 --
 
 INSERT INTO `data` (`id_peserta`, `nama_peserta`, `asal_kota`, `no_tlpn`, `sebagai`, `tema`, `tgl_acara`, `waktu_absensi`) VALUES
-(1, 'Abda Saalam', 'Semarang', '08216756590', 'Peserta', 'Diskusi Strategis', '28 Juli 2021', '2021-08-23 08:50:03');
+(1, 'Salam H.', 'Semarang', '08216756590', 'Peserta', 'Diskusi Strategis', '28 Juli 2021', '2021-08-23 08:50:03');
 
 --
 -- Indexes for dumped tables
